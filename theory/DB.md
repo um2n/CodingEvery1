@@ -9,9 +9,10 @@ _use mySQL_
 ##  <b>[설치]</b>
 ### ```bitnami wamp```
 <br>
-cmd -> C:\Bitnami\wampstack -7.4.22-0\mysql\bin <br>
-my sql -uroot -p <br>
-password : _______ <br><br>
+
+        cmd -> C:\Bitnami\wampstack -7.4.22-0\mysql\bin
+        my sql -uroot -p 
+        password : _______
 
 
 하면 된다는데 현재는 bitnami wamp가 mysql이 아닌 mariadb가 자동으로 깔려서 ariadb로 연결된다. mysql이랑 똑같아서 그냥 하면 된다는데 괜히 찜찜해서 따로 mysql 다운 받아서 하고 있는데... <font color="red" ><b>Access denied for user 'root'@'localhost' (using password: YES)</font></b> 이딴 오류가 난다.
